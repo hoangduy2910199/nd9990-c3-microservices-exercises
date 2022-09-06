@@ -8,9 +8,9 @@ services:
     build:
       context: ./udagram-api-user
     image: duyphan28101997/udagram-api-user:v1
-  # backend_feed:
-  #   build:
-  #     context: ./udagram-api-feed
+  backend_feed:
+    build:
+      context: ./udagram-api-feed
     image: duyphan28101997/udagram-api-feed:v1
   frontend:
     build:
